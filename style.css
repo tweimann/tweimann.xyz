@@ -1,8 +1,3 @@
-body {
-    color: white;
-    background-color: #0d1117;
-}
-
 a {
     color: white;
     text-decoration: none;
@@ -10,6 +5,23 @@ a {
 
 a:hover {
     color: grey;
+}
+
+body {
+    color: white;
+    background-color: #0d1117;
+}
+
+header {
+    font-size: 30px;
+    background-color: #161b22;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0px;
+    left: 0px; 
+    right: 0px;
+    height: 100px;
 }
 
 footer {
@@ -26,18 +38,6 @@ footer {
 
 /*-------------------------------------------------*/
 
-.header {
-    font-size: 30px;
-    background-color: #161b22;
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    top: 0px;
-    left: 0px; 
-    right: 0px;
-    height: 100px;
-}
-
 .header-text {
     margin: 0 auto;
     position: absolute;
@@ -45,6 +45,10 @@ footer {
     left: 15px;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+}
+
+.header-text:hover {
+    color: #58a6ff;
 }
 
 .text {
@@ -55,7 +59,6 @@ footer {
     font-size: 16px;
 }
 
-
 .socials {
     font-size: 14px;
     margin: 0;
@@ -64,6 +67,12 @@ footer {
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
+}
+
+.socials-icon {
+    height: 14px;
+    width: auto;
+    vertical-align: middle;
 }
 
 .watermark {
