@@ -5,6 +5,6 @@ if (window.location.pathname === '/') {var formattedPath = ' / home'};
 document.write('\
 \
 <header>\
-    <a class="header-text" href="index.html">tweimann' + formattedPath + '</a>\
+    <div class="header-text"><a href="index.html">tweimann</a>' + formattedPath + '\
 </header>'
 );
